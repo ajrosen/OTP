@@ -1,6 +1,6 @@
 ## OTP
 
-Like [Authy](https://authy.com), [OTP Auth](https://cooperrs.de/otpauth.html), [Okta Verify](https://help.okta.com/en/prod/end-user/Content/Topics/end-user/ov-overview.htm), etc., but using your Mac and a SQLite database.
+Like [Authy](https://authy.com), [OTP Auth](https://cooperrs.de/otpauth.html), [Okta Verify](https://help.okta.com/en/prod/end-user/Content/Topics/end-user/ov-overview.htm), etc., but using your Mac and a SQLite database.  OTP will also search recent text messages for authentication codes.
 
 
 ### YOU MUST PROTECT THE DATABASE
@@ -41,5 +41,3 @@ OTP will show the current token under each of your devices.  Selecting one will 
 - Ctrl + Shift - Automatically paste the code to the frontmost app and "press" return
 - Cmd - Show the MFA device's QR code (to scan into your favorite phone app)
 - Fn - Delete the MFA device from the database
-
-OTP will also search recent Messages for authentication codes.
